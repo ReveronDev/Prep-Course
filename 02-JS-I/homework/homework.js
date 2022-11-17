@@ -232,17 +232,9 @@ function esVocal(letra){
   if (letra.length > 1) {
     return 'Dato incorrecto'
   }
-  if (letra === 'a') {
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
     return 'Es vocal';
-  } else if (letra === 'e') {
-    return 'Es vocal';
-  } else if (letra === 'i') {
-    return 'Es vocal';
-  } else if (letra === 'o') {
-    return 'Es vocal';
-  } else if (letra === 'u') {
-    return 'Es vocal';
-  } else {
+    } else {
     return 'Dato incorrecto';
   }
 }
